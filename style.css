@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+h1 {
+  text-align: center;
+}
+
+#gallery {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+#Profile {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#Blender {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#Fashion Magazine {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#Drawing {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#Others {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#香椎祭2023 {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#Sweetest {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#Fashion Magazine {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#VI計画 {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#Collaboration project {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.img-item {
+  opacity: 0;
+  filter: blur(10px);
+  width: 100%;
+}
+
+.img-item img {
+  width: 100%;
+  height: auto;
+}
+
+.img-item p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #EEE;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+#btn-open,
+#btn-close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #dc143c;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+#btn-close {
+  z-index: 300;
+}
+
+#menu {
+  background: #2e8b57;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 200;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+#menu li {
+  text-align: center;
+  padding: 1rem 0;
+  opacity: 0;
+}
+
+#menu a {
+  color: #FFF;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+#menu a:hover {
+  color: #666;
+}
+@media screen and (max-width: 640px) {
+  #gallery {
+    grid-template-columns: 1fr;
+    
+  }
+  #Profile {
+    grid-template-columns: 1fr;
+    
+  }
+  }
